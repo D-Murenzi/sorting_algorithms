@@ -31,4 +31,9 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void swap(int *ptr1, int *ptr2);
+int list_size(listint_t *list);
+listint_t *node_remove(listint_t *list, int index);
+listint_t *node_insert(listint_t *list, listint_t *node, int index);
+
+
 #endif
